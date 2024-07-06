@@ -1,17 +1,36 @@
+"use client";
+
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { Mail, Paperclip } from "lucide-react";
 import Image from "next/image";
 import Container from "./shared/container";
+import { TypeAnimation } from "react-type-animation";
 
 const Introduction = () => {
   return (
     <Container>
       <div>
         <div className="text-center" id="home">
-          <h3 className="text-xl mb-3">Hello I´m</h3>
-          <h1 className="text-4xl font-bold mb-3">JuanesCode</h1>
-          <h2 className="text-2xl text-gray-400">Full stack developer</h2>
+          <div className="flex flex-col justify-center max-w-md">
+            <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
+              Hello I´m
+              <TypeAnimation
+                sequence={[
+                  "JuanesCode",
+                  1000,
+                  "Full stack developer",
+                  1000,
+                  "Computer Science Student",
+                  1000,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+                className="block font-bold"
+              />
+            </h1>
+          </div>
           <div className="flex items-center">
             <div className="flex flex-col md:flex-row gap-4 justify-between mt-10 mx-auto">
               <Link className={buttonVariants()} href="#contact">

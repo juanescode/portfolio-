@@ -65,7 +65,9 @@ const AboutMe = () => {
           </p>
 
           <Button>
-            <Phone size={20} className="mr-2" /> Talk later
+            <a href="tel:+573206233559" className="flex items-center">
+              <Phone size={20} className="mr-2" /> Talk later
+            </a>
           </Button>
         </div>
       </div>

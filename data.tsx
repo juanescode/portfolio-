@@ -57,66 +57,17 @@ export const itemsNavbar = [
 export const dataSlider = [
     {
         id: 1,
-        url: "/slider-1.jpg",
+        url: "/programar.jpg",
     },
     {
         id: 2,
-        url: "/slider-2.jpg",
+        url: "/futbol.jpg",
     },
     {
         id: 3,
-        url: "/slider-3.jpg",
-    },
-    {
-        id: 4,
-        url: "/slider-4.jpg",
+        url: "/canal.jfif",
     },
 ]
-
-// export const dataPortfolio = [
-//     {
-//         id: 1,
-//         title: "Web Pro",
-//         image: "/image-1.jpg",
-//         urlGithub: "#!",
-//         urlDemo: "#!",
-//     },
-//     {
-//         id: 2,
-//         title: "Desarrollo Web Ágil",
-//         image: "/image-2.jpg",
-//         urlGithub: "#!",
-//         urlDemo: "#!",
-//     },
-//     {
-//         id: 3,
-//         title: "Estrategias Web",
-//         image: "/image-3.jpg",
-//         urlGithub: "#!",
-//         urlDemo: "#!",
-//     },
-//     {
-//         id: 4,
-//         title: "Navegando Ideas Creativas",
-//         image: "/image-4.jpg",
-//         urlGithub: "#!",
-//         urlDemo: "#!",
-//     },
-//     {
-//         id: 5,
-//         title: "Sitios Web Impactantes",
-//         image: "/image-5.jpg",
-//         urlGithub: "#!",
-//         urlDemo: "#!",
-//     },
-//     {
-//         id: 6,
-//         title: "Proyectos Web Dinámicos",
-//         image: "/image-6.jpg",
-//         urlGithub: "#!",
-//         urlDemo: "#!",
-//     },
-// ];
 
 
 export const dataExperience = [
@@ -313,14 +264,14 @@ export const dataTestimonials = [
         name: "Ingaj",
         description:
             "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        imageUrl: "/profile-2.jpeg",
+        imageUrl: "/ingaj.jpeg",
     },
     {
         id: 3,
         name: "lorem",
         description:
             "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        imageUrl: "/profile-3.jpeg",
+        imageUrl: "/viking.jpg",
     },
     {
         id: 4,
