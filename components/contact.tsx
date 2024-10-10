@@ -21,7 +21,7 @@ const Contact = () => {
               <Link href={data.link} target="_blank">
                 Send Message
               </Link>
-            </div>
+            </div> 
           ))}
         </div>
         <div className="col-span-2">

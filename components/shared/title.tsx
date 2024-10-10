@@ -2,7 +2,7 @@ interface TitleProps {
   title: string;
   subtitle: string;
 }
-
+ 
 const Title = (props: TitleProps) => {
   const { title, subtitle } = props;
   return (

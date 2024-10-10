@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link href={item.link}>{item.icon}</Link>
             </div>
         ))}
-        <ToggleTheme />
+        <ToggleTheme /> 
       </div>
     </nav>
   );

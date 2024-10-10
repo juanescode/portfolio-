@@ -1,3 +1,4 @@
+import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { SquareTerminal, BookText, Briefcase, Brush, GitBranchIcon,CodeSquare, Home, Inbox, Mail, PanelsTopLeft, Phone, UserRound, UsersRound, Wrench } from "lucide-react";
 
 export const dataAboutMe = [
@@ -40,14 +41,8 @@ export const itemsNavbar = [
         icon: <BookText size={20} />,
         link: "#services",
     },
-    // {
-    //     id: 4,
-    //     title: "Target",
-    //     icon: <CodeSquare size={20} />,
-    //     link: "#portfolio",
-    // },
     {
-        id: 5,
+        id: 4,
         title: "Home",
         icon: <Mail size={20} />,
         link: "#contact",
@@ -78,32 +73,32 @@ export const dataExperience = [
             {
                 name: "HTML",
                 subtitle: "intermediate",
-                value: 60,
+                value: 100,
             },
             {
                 name: "CSS",
                 subtitle: "intermediate",
-                value: 40,
+                value: 70,
             },
             {
                 name: "JavaScript",
                 subtitle: "intermediate",
-                value: 70,
+                value: 96,
             },
             {
                 name: "Tailwind CSS",
                 subtitle: "intermediate",
-                value: 40,
+                value: 90,
             },
             {
                 name: "React",
                 subtitle: "Experienced",
-                value: 60,
+                value: 90,
             },
             {
-                name: "Bootstrap",
-                subtitle: "Basic",
-                value: 50,
+                name: "Nextjs",
+                subtitle: "Experienced",
+                value: 85,
             },
         ],
     },
@@ -119,27 +114,63 @@ export const dataExperience = [
             {
                 name: "Mongo DB",
                 subtitle: "intermediate",
-                value: 65,
+                value: 50,
             },
             {
                 name: "PostgreSQL",
                 subtitle: "Experienced",
-                value: 80,
+                value: 100,
             },
             {
                 name: "MySQL",
                 subtitle: "Experienced",
-                value: 80,
+                value: 100,
             },
             {
                 name: "Typescript",
                 subtitle: "Experienced",
-                value: 75,
+                value: 95,
             },
             {
                 name: "Express JS",
                 subtitle: "Experienced",
+                value: 90,
+            },
+        ],
+    },
+    {
+        id: 3,
+        title: "Tools",
+        experience: [
+            {
+                name: "Git",
+                subtitle: "Experienced",
+                value: 95,
+            },
+            {
+                name: "VSCode",
+                subtitle: "Experienced",
+                value: 90,
+            },
+            {
+                name: "Figma",
+                subtitle: "Basic",
+                value: 40,
+            },
+            {
+                name: "Postman",
+                subtitle: "intermediate",
                 value: 80,
+            },
+            {
+                name: "Docker",
+                subtitle: "Basic",
+                value: 40,
+            },
+            {
+                name: "AWS",
+                subtitle: "intermediate",
+                value: 70,
             },
         ],
     },
@@ -220,8 +251,19 @@ export const dataServices = [
             },
             {
                 "name": "Responsive Design to Adapt to Different Devices"
-            }
-            
+            },
+            {
+                "name": "Information Architecture to Organize Content"
+            },
+            {
+                "name": "Visual Design to Create Aesthetic Appeal"
+            },
+            {
+                "name": "Interaction Design to Define User Interactions"
+            },
+            {
+                "name": "Typography to Enhance Readability and Color Theory to Create Visual Harmony"
+            },
         ],
     },
 ];
@@ -259,25 +301,25 @@ export const dataTestimonials = [
             "I am a 4th-year (8th semester) student of Systems Engineering, currently focused on acquiring deep knowledge in software development, system architecture, and emerging technologies. My university education has provided me with a solid foundation in programming, algorithms, databases, and system design, while my passion for technology drives me to constantly explore new tools and methodologies in the field of computer science. I am seeking opportunities to apply my skills in challenging projects that allow me to grow both professionally and personally",
         imageUrl: "unilibre.png",
     },
-    {
+     {
         id: 2,
-        name: "Ingaj",
+        name: "ScanOrderly",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        imageUrl: "/ingaj.jpeg",
+            "ScanOrderly is a project I am developing with a friend. It is a management software for restaurants, bars, hotels, etc., that optimizes operations, from real-time order management to inventory control and detailed analysis of sales and expenses. With an intuitive interface and the ability to generate real-time reports, it allows owners to make informed decisions, helping to increase operational efficiency and business profitability.",
+        imageUrl: "/ScanOrderlyL.png",
     },
     {
         id: 3,
-        name: "lorem",
+        name: "Viking room",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+            "The viking room, I developed the first functional prototype of an application that served as a virtual menu. Customers could access the menu by scanning a QR code, and it also included an admin panel where authorized accounts could add, publish, or unpublish products visible to customers. This experience was key, as it served as the inspiration for developing ScanOrderly, taking the initial ideas to a more advanced level of management and operational optimization.",
         imageUrl: "/viking.jpg",
     },
     {
         id: 4,
-        name: "Viking room",
+        name: "Ingaj",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        imageUrl: "/viking.jpg",
+            "Ingaj is a construction company established in the city of Pereira, specializing in infrastructure projects and civil works development. During my time with Ingaj, I contributed to the development of a custom application for managing and controlling material costs and inventories. This application was designed to optimize the tracking of resources used in the various stages of construction, allowing for precise monitoring of the flow of materials, from acquisition to their use on each project. Additionally, the tool provided detailed reports on associated costs, facilitating informed decision-making and improving budget management efficiency.",
+        imageUrl: "/ingaj.jpeg",
     },
 ];

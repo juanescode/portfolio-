@@ -6,6 +6,7 @@ import { Mail, Paperclip } from "lucide-react";
 import Image from "next/image";
 import Container from "./shared/container";
 import { TypeAnimation } from "react-type-animation";
+import HyperText from "./ui/hyper-text";
 
 const Introduction = () => {
   return (
@@ -14,7 +15,10 @@ const Introduction = () => {
         <div className="text-center" id="home">
           <div className="flex flex-col justify-center max-w-md">
             <h1 className="mb-5 text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-10">
-              Hello I´m
+              <HyperText
+                className="text-4xl font-bold text-black dark:text-white"
+                text="Hello, I'm "
+              />
               <TypeAnimation
                 sequence={[
                   "JuanesCode",
@@ -27,7 +31,7 @@ const Introduction = () => {
                 wrapper="span"
                 speed={50}
                 repeat={Infinity}
-                className="block font-bold"
+                className="block font-bold text-center"
               />
             </h1>
           </div>

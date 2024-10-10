@@ -4,6 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 const Testimonials = () => {
+    
     return (
         <div className="p-4 md:px-12 md:py-44 max-w-5xl mx-auto">
             <Title title="Education and work experience" subtitle="Education and Work Experience" />

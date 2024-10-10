@@ -5,6 +5,8 @@ import { Phone } from "lucide-react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
 import Image from "next/image";
 
+
+
 const AboutMe = () => {
   return (
     <div className="p-6 md:px-12 md:py-30 max-w-5xl mx-auto" id="about-me">
