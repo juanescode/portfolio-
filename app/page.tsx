@@ -6,6 +6,7 @@ import Introduction from "@/components/introduction";
 import Navbar from "@/components/navbar";
 import Services from "@/components/services";
 import Testimonials from "@/components/testimonilas";
+import Portfolio from "@/components/ui/portfolio";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutMe />
       <Experience />
       <Services />
+      <Portfolio />
       <Testimonials />
       <Contact />
       <Footer />

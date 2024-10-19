@@ -43,7 +43,7 @@ const Introduction = () => {
 
               <Link
                 className={buttonVariants({ variant: "secondary" })}
-                href="/cv-juanes.pdf"
+                href="/cv.pdf"
                 target="_blank"
               >
                 <Paperclip className="mr-2" /> Download CV

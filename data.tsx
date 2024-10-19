@@ -176,6 +176,39 @@ export const dataExperience = [
     },
 ];
 
+export const dataPortfolio = [
+    {
+        id: 1,
+        title: "ScanOrderly",
+        image: "/scanOrderly.png",
+        urlDemo: "https://scanviking.netlify.app/",
+    },
+    {
+        id: 2,
+        title: "Landing Page ScanOrderly",
+        image: "/landinpage.png",
+        urlDemo: "https://scan-orderly.vercel.app/",
+    },
+    {
+        id: 3,
+        title: "The viking room",
+        image: "/vikingroom.png",
+        urlDemo: "https://viking-room.netlify.app/",
+    },
+    {
+        id: 4,
+        title: "Dashboard companies",
+        image: "/darhboard.png",
+        urlDemo: "https://dashboard-companies-juanescode.netlify.app/",
+    },
+    {
+        id: 5,
+        title: "Random password auth",
+        image: "/passwordp.png",
+        urlDemo: "https://password-generate-lzrh2jefp-juanescodes-projects.vercel.app/",
+    },
+];
+
 
 export const dataServices = [
     {
