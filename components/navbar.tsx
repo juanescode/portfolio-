@@ -1,6 +1,6 @@
 import { itemsNavbar } from "@/data";
 import Link from "next/link";
-import { ToggleTheme } from "./toggle-theme";
+import { ModeToggle } from "./toggle-theme";
 
 const Navbar = () => {
   return (
@@ -11,7 +11,7 @@ const Navbar = () => {
                 <Link href={item.link}>{item.icon}</Link>
             </div>
         ))}
-        <ToggleTheme /> 
+        <ModeToggle /> 
       </div>
     </nav>
   );
