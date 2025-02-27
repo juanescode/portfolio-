@@ -14,6 +14,12 @@ import {
   UserRound,
   UsersRound,
   Wrench,
+  PhoneCall,
+  Youtube,
+  Linkedin,
+  Github,
+  HomeIcon,
+  MailIcon,
 } from "lucide-react";
 
 export const dataAboutMe = [
@@ -37,32 +43,38 @@ export const dataAboutMe = [
   },
 ];
 
-export const itemsNavbar = [
-  {
-    id: 1,
-    title: "Home",
-    icon: <Home size={20} />,
-    link: "#home",
+export const DATA = {
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
+  contact: {
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/juanescode",
+        icon: Github,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/juan-esteban-villada-gallego-6015552bb/",
+        icon: Linkedin,
+      },
+      Youtube: {
+        name: "Youtube",
+        url: "https://www.youtube.com/@juanescode976",
+        icon: Youtube,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:juanestebanvilladagallego23@gmail.com",
+        icon: Mail,
+      },
+      phone: {
+        name: "Call Me",
+        url: "tel:+57 3206233559",
+        icon: Phone,
+      },
+    },
   },
-  {
-    id: 2,
-    title: "User",
-    icon: <UserRound size={20} />,
-    link: "#about-me",
-  },
-  {
-    id: 3,
-    title: "Book",
-    icon: <BookText size={20} />,
-    link: "#services",
-  },
-  {
-    id: 4,
-    title: "Home",
-    icon: <Mail size={20} />,
-    link: "#contact",
-  },
-];
+};
 
 export const dataSlider = [
   {

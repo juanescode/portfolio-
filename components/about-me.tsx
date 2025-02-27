@@ -2,10 +2,14 @@ import { dataAboutMe, dataSlider } from "@/data";
 import Title from "./shared/title";
 import { Button } from "./ui/button";
 import { Phone } from "lucide-react";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "./ui/carousel";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "./ui/carousel";
 import Image from "next/image";
-
-
 
 const AboutMe = () => {
   return (
