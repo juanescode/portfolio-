@@ -181,7 +181,7 @@ export const dataPortfolio = [
   },
   {
     id: 3,
-    title: "The viking room",
+    title: "VikingRoom",
     image: "/vikingroom.png",
     urlDemo: "https://viking-room.netlify.app/",
   },
@@ -198,6 +198,12 @@ export const dataPortfolio = [
     urlDemo:
       "https://password-generate-lzrh2jefp-juanescodes-projects.vercel.app/",
   },
+  {
+    id: 6,
+    title: "Landing Page VikingRoom",
+    image: "/vikingroom2.png",
+    urlDemo: "https://project-viking.vercel.app/"
+  }
 ];
 
 export const dataServices = [
@@ -319,7 +325,7 @@ export const dataTestimonials = [
     id: 1,
     name: "Universidad libre ",
     description:
-      "I am a 4th-year (8th semester) student of Systems Engineering, currently focused on acquiring deep knowledge in software development, system architecture, and emerging technologies. My university education has provided me with a solid foundation in programming, algorithms, databases, and system design, while my passion for technology drives me to constantly explore new tools and methodologies in the field of computer science. I am seeking opportunities to apply my skills in challenging projects that allow me to grow both professionally and personally",
+      "I am a 5th-year (9th semester) student of Systems Engineering, currently focused on acquiring deep knowledge in software development, system architecture, and emerging technologies. My university education has provided me with a solid foundation in programming, algorithms, databases, and system design, while my passion for technology drives me to constantly explore new tools and methodologies in the field of computer science. I am seeking opportunities to apply my skills in challenging projects that allow me to grow both professionally and personally",
     imageUrl: "unilibre.png",
   },
   {
