@@ -7,6 +7,8 @@ import Image from "next/image";
 import Container from "./shared/container";
 import { TypeAnimation } from "react-type-animation";
 import HyperText from "./ui/hyper-text";
+import { ShimmerButton } from "./magicui/shimmer-button";
+import { ShinyButton } from "./magicui/shiny-button";
 
 const Introduction = () => {
   return (
@@ -36,17 +38,18 @@ const Introduction = () => {
             </h1>
           </div>
           <div className="flex items-center">
-            <div className="flex flex-col md:flex-row gap-4 justify-between mt-10 mx-auto">
-              <Link className={buttonVariants()} href="#contact">
-                <Mail className="mr-2" /> Contact me
+            <div className="grid grid-cols-2 gap-4 mt-10 mx-auto max-w-xs md:max-w-md">
+              <Link href="#contact">
+                <ShinyButton className="flex items-center justify-center px-4 py-2 text-sm shadow-lg w-full">
+                  <span className="tracking-normal">Contact Me</span>
+                </ShinyButton>
               </Link>
 
-              <Link
-                className={buttonVariants({ variant: "secondary" })}
-                href="/cvvv.pdf"
-                target="_blank"
-              >
-                <Paperclip className="mr-2" /> Download CV
+              <Link href="/cvvv.pdf" target="_blank" download>
+                <ShimmerButton className="px-4 py-2 text-sm flex items-center gap-1 w-full">
+                  <Paperclip className="w-4 h-4 text-white" />
+                  <span className="text-white">Download CV</span>
+                </ShimmerButton>
               </Link>
             </div>
           </div>

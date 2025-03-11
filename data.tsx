@@ -151,7 +151,7 @@ export const dataExperience = [
         name: "VSCode",
       },
       {
-        name: "Figma",
+        name: "Analytics",
       },
       {
         name: "Postman",

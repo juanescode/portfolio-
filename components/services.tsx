@@ -10,12 +10,12 @@ const Services = () => {
         {dataServices.map((services) => (
           <div
             key={services.id}
-            className="rounded-xl border-slate-400 border-2 p-6 dark:bg-slate-800 h-fit"
+            className="rounded-xl border-slate-400 border-2 p-6 h-full flex flex-col transition-transform transform hover:scale-105"
           >
-            <h4 className="mb-4 text-xl flex gap-2">
+            <h4 className="mb-4 text-xl flex gap-2 font-bold">
               {services.icon} {services.title}
             </h4>
-            <ul>
+            <ul className="flex-grow">
               {services.features.map((feature, index) => (
                 <li key={index} className="flex gap-3 mb-3">
                   <Check size={20} />

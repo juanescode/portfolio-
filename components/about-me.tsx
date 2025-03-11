@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 import Image from "next/image";
+import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
 
 const AboutMe = () => {
   return (
@@ -48,14 +49,15 @@ const AboutMe = () => {
             {dataAboutMe.map((data) => (
               <div
                 key={data.id}
-                className="border border-white-10 rounded-xl p-4 shadow-md shadow-slate-100 dark:bg-slate-800"
+                className="border border-white-10 rounded-xl p-4 bg-transparent border-gray-300 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
               >
                 {data.icon}
                 <p className="my-2">{data.name}</p>
-                <p className="text-gray-400">{data.description}</p>
+                <p className="text-gray-500">{data.description}</p>
               </div>
             ))}
           </div>
+
           <p className="my-8">
             Hi! My name is Juanes. I am a computer science student.
             <br />
@@ -70,11 +72,11 @@ const AboutMe = () => {
             TypeScript and much more.
           </p>
 
-          <Button>
+          <InteractiveHoverButton>
             <a href="tel:+573206233559" className="flex items-center">
               <Phone size={20} className="mr-2" /> Talk later
             </a>
-          </Button>
+          </InteractiveHoverButton>
         </div>
       </div>
     </div>
