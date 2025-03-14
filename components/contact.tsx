@@ -5,15 +5,15 @@ import ContactForm from "./contact-form";
 
 const Contact = () => {
   return (
-    <div className="p-6 md:px-12 md:py-44 max-w-5xl mx-auto" id="contact">
+    <div className="p-6 md:px-12 md:py-5 max-w-5xl mx-auto" id="contact">
       <Title title="Contact me" subtitle="Get in touch with me " />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8 ">
         <div>
           {dataContact.map((data) => (
             <div
               key={data.id}
-              className="flex flex-col items-center dark:bg-slate-800 rounded-lg mb-5 p-4"
+              className="flex flex-col items-center rounded-lg mb-5 p-4 border border-white-10 bg-transparent border-gray-300 dark:bg-[hsl(220,40%,2%)] bg-white transition-transform transform hover:scale-105"
             >
               {data.icon}
               <p>{data.title}</p>

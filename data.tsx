@@ -157,7 +157,7 @@ export const dataExperience = [
         name: "Postman",
       },
       {
-        name: "Docker",
+        name: "Slack",
       },
       {
         name: "AWS",
@@ -171,30 +171,59 @@ export const dataPortfolio = [
     id: 1,
     title: "ScanOrderly",
     image: "/scanOrderly.png",
+    dates: "2024",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "PostgreSQL",
+      "Prisma",
+      "TailwindCSS",
+      "Zustand",
+    ],
+    description: "Custom software primarily designed for restaurants but adaptable to various types of businesses. Real-time order management, inventory control, detailed sales and expense analysis, data export in PDF/Excel, and an intuitive interface. More information is available on the landing page.",
     urlDemo: "https://scanviking.netlify.app/",
   },
   {
     id: 2,
     title: "Landing Page ScanOrderly",
     image: "/landinpage.png",
+    dates: "2024",
+    tags: ["React", "Typescript", "TailwindCSS", "NodeJS", "Express"],
+    description: "Landing page for the ScanOrderly software, with detailed information about the product, features, pricing, and contact details. Futuristic and minimalist design, with animations and visual effects. Fully responsive.",
     urlDemo: "https://scan-orderly.vercel.app/",
   },
   {
     id: 3,
     title: "VikingRoom",
     image: "/vikingroom.png",
+    dates: "2024",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "PostgreSQL",
+      "Prisma",
+      "TailwindCSS",
+      "Zustand",
+    ],
+    description: "",
     urlDemo: "https://viking-room.netlify.app/",
   },
   {
     id: 4,
     title: "Dashboard companies",
     image: "/darhboard.png",
+    dates: "2024",
+    tags: ["Next.js", "Typescript", "PostgreSQL", "Prisma", "TailwindCSS"],
+    description: "",
     urlDemo: "https://dashboard-companies-juanescode.netlify.app/",
   },
   {
     id: 5,
     title: "Random password auth",
     image: "/passwordp.png",
+    dates: "2025",
+    tags: ["Next.js", "Typescript", "MongoDB", "Prisma", "TailwindCSS"],
+    description: "",
     urlDemo:
       "https://password-generate-lzrh2jefp-juanescodes-projects.vercel.app/",
   },
@@ -202,8 +231,17 @@ export const dataPortfolio = [
     id: 6,
     title: "Landing Page VikingRoom",
     image: "/vikingroom2.png",
-    urlDemo: "https://project-viking.vercel.app/"
-  }
+    dates: "2025",
+    tags: [
+      "Next.js",
+      "Typescript",
+      "MongoDB",
+      "Prisma",
+      "TailwindCSS",
+    ],
+    description: "",
+    urlDemo: "https://project-viking.vercel.app/",
+  },
 ];
 
 export const dataServices = [

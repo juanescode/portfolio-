@@ -10,7 +10,7 @@ const Services = () => {
         {dataServices.map((services) => (
           <div
             key={services.id}
-            className="rounded-xl border-slate-400 border-2 p-6 h-full flex flex-col transition-transform transform hover:scale-105"
+            className="rounded-xl border-slate-400 border-2 p-6 h-full flex flex-col transition-transform transform hover:scale-105 dark:bg-[hsl(220,40%,2%)] bg-white"
           >
             <h4 className="mb-4 text-xl flex gap-2 font-bold">
               {services.icon} {services.title}

@@ -20,7 +20,7 @@ const Introduction = () => {
               <HyperText
                 className="text-4xl font-bold text-black dark:text-white"
                 text="Hello, I'm "
-              />
+              /> 
               <TypeAnimation
                 sequence={[
                   "JuanesCode",

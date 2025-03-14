@@ -13,7 +13,7 @@ const Experience = () => {
           .map((data) => (
             <div
               key={data.id}
-              className="p-6 rounded-xl border border-gray-300 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl hover:border-gray-400 dark:border-gray-600 dark:bg-transparent dark:hover:border-gray-400"
+              className="p-6 rounded-xl border border-gray-300 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl hover:border-gray-400 dark:border-gray-600 dark:bg-transparent dark:hover:border-gray-400 dark:bg-[hsl(220,40%,2%)] bg-white"
             >
               <h3 className="text-center text-xl font-semibold text-black mb-4 dark:text-white">{data.title}</h3>
               <div className="grid md:grid-cols-2 grid-cols-1 gap-4">
@@ -31,7 +31,7 @@ const Experience = () => {
           ))}
 
         <div
-          className="p-6 rounded-xl border border-gray-300 shadow-lg md:col-span-2 transition-transform transform hover:scale-105 hover:shadow-xl hover:border-gray-400 dark:border-gray-600 dark:bg-transparent dark:hover:border-gray-400"
+          className="p-6 rounded-xl border border-gray-300 shadow-lg md:col-span-2 transition-transform transform hover:scale-105 hover:shadow-xl hover:border-gray-400 dark:border-gray-600 dark:bg-transparent dark:hover:border-gray-400 bg-white dark:bg-[hsl(220,40%,2%)]"
         >
           <h3 className="text-center text-xl font-semibold text-black mb-4 dark:text-white">Tools</h3>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-4 md:justify-items-center">

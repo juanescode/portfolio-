@@ -13,9 +13,9 @@ export function ParticlesDemo() {
   }, [resolvedTheme]);
 
   return (
-    <div>
+    <div className="fixed inset-0 -z-10">
       <Particles
-        className="fixed inset-0 z-0"
+        className="w-full h-full"
         quantity={100}
         ease={80}
         color={color}

@@ -49,7 +49,7 @@ const AboutMe = () => {
             {dataAboutMe.map((data) => (
               <div
                 key={data.id}
-                className="border border-white-10 rounded-xl p-4 bg-transparent border-gray-300 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl"
+                className="border border-white-10 rounded-xl p-4 bg-transparent border-gray-300 shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl dark:bg-[hsl(220,40%,2%)] bg-white"
               >
                 {data.icon}
                 <p className="my-2">{data.name}</p>
