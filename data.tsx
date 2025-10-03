@@ -242,6 +242,15 @@ export const dataPortfolio = [
     description: "",
     urlDemo: "https://project-viking.vercel.app/",
   },
+  {
+    id: 7,
+    title: "Unidad oftalmológica laser",
+    image: "/oftamologica.webp",
+    dates: "2025",
+    tags: ["React", "Typescript", "TailwindCSS", "Vite"],
+    description: "",
+    urlDemo: "https://unidadoftalmologicalaser.com.co"
+  }
 ];
 
 export const dataServices = [
