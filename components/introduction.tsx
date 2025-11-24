@@ -45,7 +45,7 @@ const Introduction = () => {
                 </ShinyButton>
               </Link>
 
-              <Link href="/cvvv.pdf" target="_blank" download>
+              <Link href="/Hoja de Vida Juan Esteban Villada Gallego.pdf" target="_blank" download>
                 <ShimmerButton className="px-4 py-2 text-sm flex items-center gap-1 w-full">
                   <Paperclip className="w-4 h-4 text-white" />
                   <span className="text-white">Download CV</span>
