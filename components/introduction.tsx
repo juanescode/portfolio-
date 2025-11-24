@@ -64,7 +64,7 @@ const Introduction = () => {
               marginTop: "20px",
             }}
           >
-            <Image src="/yoo.jpeg" alt="Profile pic" width={120} height={120} />
+            <Image src="/yooo.jpeg" alt="Profile pic" width={120} height={120} />
           </div>
         </div>
       </div>
