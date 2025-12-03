@@ -114,6 +114,9 @@ export const dataExperience = [
       {
         name: "Nextjs",
       },
+      {
+        name: "Vue.js",
+      },
     ],
   },
   {
@@ -138,6 +141,18 @@ export const dataExperience = [
       {
         name: "Express JS",
       },
+      {
+        name: "PHP",
+      },
+      {
+        name: "Laravel",
+      },
+      {
+        name: "Java",
+      },
+      {
+        name: "Spring boot",
+      },
     ],
   },
   {
@@ -146,6 +161,9 @@ export const dataExperience = [
     experience: [
       {
         name: "Git",
+      },
+      {
+        name: "GitHub",
       },
       {
         name: "VSCode",
@@ -162,6 +180,9 @@ export const dataExperience = [
       {
         name: "AWS",
       },
+      {
+        name: "IntelliJ IDEA",
+      }
     ],
   },
 ];

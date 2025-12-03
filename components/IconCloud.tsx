@@ -40,6 +40,12 @@ const slugs = [
   "googlecloud",
   "mui",
   "slack",
+  "php",
+  "laravel",
+  "springboot",
+  "vue.js",
+  "intellijidea",
+  "spring",
 ];
 
 export function IconCloudDemo() {
